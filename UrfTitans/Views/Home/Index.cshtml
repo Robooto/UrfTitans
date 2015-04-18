@@ -1,0 +1,36 @@
+﻿
+
+@{
+    ViewBag.Title = "Urf Titans";
+}
+
+<section class="champs bg-white">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <h1>Most Played Champions</h1>
+                <hr class="small">
+                @Html.Action("MostPlayed", "Home")
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<section class="champs bg-dark">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <h1>Most Banned Champions</h1>
+                <hr class="small">
+                @Html.Action("MostBanned", "Home")
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+

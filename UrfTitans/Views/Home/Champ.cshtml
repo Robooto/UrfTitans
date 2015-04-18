@@ -1,0 +1,13 @@
+﻿@model UrfTitans.Models.ChampInfo
+
+@{
+    Layout = null;
+    Random rnd = new Random();
+    int skin = rnd.Next(Model.skins.Count);
+    string end = String.Format("_{0}.jpg", skin);
+}
+ 
+<img src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/@Model.name@end" class="img-responsive">
+<h4>
+    <strong>@Model.name</strong>
+</h4>

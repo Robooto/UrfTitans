@@ -1,0 +1,20 @@
+﻿@model IEnumerable<UrfTitans.Models.ViewModels.BannedGroupedChamp>
+@{
+    Layout = null;
+}
+
+<div class="row">
+    @foreach (var champ in Model)
+    {
+        double percent = ((double)champ.count / (double)champ.totalCount) * 100;
+
+        <div class="col-md-15 col-sm-3">
+            <div class="service-item">
+                @Html.Action("Champ", "Home", new { id = champ.champId })
+                <p>Banned @Math.Ceiling(percent)% of games</p>
+            </div>
+        </div>
+    }
+
+</div>
+<!-- /.row (nested) -->

@@ -1,0 +1,124 @@
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Cardo', serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(img/promoart2.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* Champs */
+
+.champs {
+    padding: 100px 0;
+}
+
+.champs-item {
+    margin-bottom: 30px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+}
+
+/* Custom Styles */
+.bg-dark {
+    background-color: #AEAEAE;
+}
+
+.bg-banned {
+    background-color: #9E0606;
+}
+
+.titan-heading {
+  margin: 0;
+  padding: 0;
+  font-size: 9.5em;
+  font-weight: 700;
+
+}
+
+.heading-text {
+    font-family: 'Oswald', sans-serif;
+  color: rgba(255, 199, 55, 0.83);
+  text-shadow: 4px 3px 3px rgba(0, 0, 0, 1), 0 0 30px rgba(0,0,0,.075);
+}
+
+.heading {
+    font-size: 3.0em;
+}
