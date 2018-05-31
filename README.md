@@ -2,7 +2,7 @@
 
 [www.titansofurf.com](http://www.titansofurf.com "Titans of URF")
 
-Titans of URF was made for Riot's API contest.  We recorded data from 1,500 Ultra Rapid Fire games from 4/5/2015 to 4/11/2015. Specifically, we looked at the top 5 played champions and top 5 banned champions.  We are new to API-based programming, so this contest was a lot of fun and a big challenge!
+Titans of URF was made for Riot's API contest.  We recorded data from 1,500 Ultra Rapid Fire games from 4/5/2015 to 4/11/2015. Specifically, we looked at the top 5 played champions and top 5 banned champions.  This contest was a lot of fun and a big challenge!
 
 ## What does it do?
 
