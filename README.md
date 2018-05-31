@@ -27,16 +27,12 @@ Titans of URF was made for Riot's API contest.  We recorded data from 1,500 Ultr
 
 ## Get up and running
 
-Disclaimer: We are pretty new to ASP.NET and haven't shared a project before.
-
-
-
 1. Clone or download the repo 
 2. Launch MySQL database (I recommend XAMPP if on windows)
 3. Import Database backup provided
 3. Enter your API key into the config.cs class
 4. Enter your database information in the connection string of the web.config
-5. Launch the site (fingers crossed)
+5. Launch the site
 
 ## To-do List
 - Design points:
