@@ -46,11 +46,10 @@ Disclaimer: We are pretty new to ASP.NET and haven't shared a project before.
 - Finish Up the Admin Section
 - Add the ability to pull data from different End points
 - Add the ability for admin to display different top 5 lists on the front end
-- Clean up API and database fetching code (beginner code)
+- Clean up API and database fetching code
 
 ## Created By
 - Sam Russell
-- Hannah Russell
 
 
 
